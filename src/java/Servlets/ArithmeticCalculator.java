@@ -68,7 +68,7 @@ public class ArithmeticCalculator extends HttpServlet {
         } else if (calButton.equals("*"))
         {
             result = intFirstNum * intSecondNum;
-        }else if (calButton.equals("%"))
+        } else if (calButton.equals("%"))
         {
             result = intFirstNum % intSecondNum;
         }
